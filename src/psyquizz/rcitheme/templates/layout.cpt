@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+	crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <tal:header tal:content="structure provider:headers" />
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="" id="siteheader">
+	<div id="header" class=""
+	     tal:content="structure provider:pagetop" />
+	<div id="navigation" class=""
+	     tal:content="structure provider:navigation" />
+      </div>
+      <div id="rci_logo_section" class="container">
+        <div class="col-md-3">
+          <img src="fanstatic/psyquizz.rcitheme/rci_logo.png">
+        </div>
+        <div class="col-md-9">
+        <h1> Gemeinsam zu gesunden Arbeitsbedingungen </h1>
+        <p class="lead"> Psychische Belastung online erfassen </p>
+      </div>
+      </div>
+      <div class="container" id="page-content-wrapper">
+	<div id="main">
+	  <div class="content">
+	    <div id="uvc-tabs" class="row"
+		 tal:content="structure provider:tabs" />
+	    <div tal:content="structure provider:above-body" />
+	    <div tal:content="structure content" />
+	    <div tal:content="structure provider:below-body" />
+	  </div>
+	</div>
+      </div>
+      <div id="footer" tal:content="structure provider:rcifooter" />
+    </div>
+  </body>
+</html>

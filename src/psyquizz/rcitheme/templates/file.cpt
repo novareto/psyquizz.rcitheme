@@ -1,0 +1,3 @@
+<input type="file"
+       tal:attributes="id widget.identifier;
+		       name widget.identifier;" />

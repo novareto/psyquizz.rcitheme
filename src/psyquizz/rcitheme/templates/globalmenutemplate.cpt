@@ -1,0 +1,18 @@
+<div class="" id="mobile-site-action"> 
+  <div class="collapse navbar-collapse navbar-mobile-collapse">
+    <ul class="mobile-site-action visible-xs">
+      <li tal:repeat="entry entries"> 
+	<a href="" tal:attributes="href entry.action"
+	   tal:content="structure entry.title" />
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-header">
+    <a data-target=".navbar-mobile-collapse"
+       data-toggle="collapse" class="collapsed mobile-plus pull-right">
+      <span class="plus visible-xs"></span>
+    </a>
+  </div>
+  <a data-target=".navbar-mobile-collapse" data-toggle="collapse"
+     class="collapsed mobile-plus pull-right"></a>
+</div>

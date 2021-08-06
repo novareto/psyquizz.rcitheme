@@ -1,0 +1,21 @@
+<div class="hidden-xs container">
+  <ul class="list-inline">
+      <li class="">
+         <a href="" tal:attributes="href view.application_url() + '/datenschutz'">Datenschutz</a>
+      </li>
+      <li class="divider-vertical">&nbsp;</li>
+      <li class="">
+         <a href="http://www.vbg.de/DE/Footer/Impressum/impressum_node.html" target="_blank">Impressum</a>
+      </li>
+      <li class="divider-vertical">&nbsp;</li>
+      <li class="">
+          <a href="mailto://gzga@bgetem.de">Kontakt</a>
+      </li>
+      <li class="divider-vertical">&nbsp;</li>
+      <li class="">
+         <a  tal:attributes="href view.application_url() + '/logout'">Abmelden</a>
+      </li>
+      
+    
+  </ul>
+</div>
