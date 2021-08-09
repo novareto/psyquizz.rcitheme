@@ -3,7 +3,7 @@ import itertools
 from zope import interface
 from zope import schema
 from . import get_template
-from .interfaces import IVBGTheme
+from .interfaces import IRCITheme
 from dolmen.forms.base.actions import Action, Actions
 from nva.psyquizz.interfaces import ICompanyRequest
 from nva.psyquizz.browser.invitations import DownloadLetter, DEFAULT
@@ -20,7 +20,7 @@ from nva.psyquizz.apps.company import AnonIndex
 
 
 class AnonIndex(AnonIndex):
-    uvclight.layer(IVBGTheme)
+    uvclight.layer(IRCITheme)
     template = get_template('anon_index_new.pt')
 
 
@@ -53,7 +53,7 @@ class EmailAction(Action):
 
     @staticmethod
     def send(smtp, text, tokens, *recipients):
-        mailer = SecureMailer(smtp)  # BBB 
+        mailer = SecureMailer(smtp)  # BBB
         from_ = 'extranet@bgetem.de'
         title = (u'FIX ME').encode(ENCODING)
 
@@ -88,7 +88,7 @@ class Letter:
 
 class LetterEmailer(DownloadLetter):
     uvclight.name('downloadletter')
-    uvclight.layer(IVBGTheme)
+    uvclight.layer(IRCITheme)
 
     fields = DownloadLetter.fields + uvclight.Fields(IEmailer)
     fields['emails'].interface = IEmailer  # TEMPORARY FIX

@@ -4,7 +4,7 @@
 
 import uvclight
 
-from .interfaces import IVBGTheme
+from .interfaces import IRCITheme
 from zope import schema, interface
 from nva.psyquizz.models import IAccount
 from nva.psyquizz.browser.forms import CreateAccount, CreateCompany
@@ -31,7 +31,7 @@ class IAckForm(interface.Interface):
     )
 
 class CreateAccount(CreateAccount):
-    uvclight.layer(IVBGTheme)
+    uvclight.layer(IRCITheme)
 
     fields = (uvclight.Fields(IAccount).select('name', 'email', 'password') +
         uvclight.Fields(IVerifyPassword, ICaptched)) + uvclight.Fields(IAckForm)

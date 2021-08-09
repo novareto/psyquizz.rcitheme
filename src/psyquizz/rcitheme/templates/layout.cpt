@@ -17,20 +17,16 @@
   </head>
   <body>
     <div id="wrapper">
-      <div class="" id="siteheader">
+      <div id="rci_logo_section" class="container">
+        <div class="col-md-3">
+          <img src="fanstatic/psyquizz.rcitheme/rci_logo.png" />
+        </div>
+      </div>
+      <div id="siteheader">
 	<div id="header" class=""
 	     tal:content="structure provider:pagetop" />
 	<div id="navigation" class=""
 	     tal:content="structure provider:navigation" />
-      </div>
-      <div id="rci_logo_section" class="container">
-        <div class="col-md-3">
-          <img src="fanstatic/psyquizz.rcitheme/rci_logo.png">
-        </div>
-        <div class="col-md-9">
-        <h1> Gemeinsam zu gesunden Arbeitsbedingungen </h1>
-        <p class="lead"> Psychische Belastung online erfassen </p>
-      </div>
       </div>
       <div class="container" id="page-content-wrapper">
 	<div id="main">

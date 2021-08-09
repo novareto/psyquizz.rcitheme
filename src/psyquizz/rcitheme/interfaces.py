@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
 from grokcore.component import provider
-from zope.interface import Interface
-from uvc.themes.btwidgets import IBootstrapRequest
 from nva.psyquizz.models import deferred_vocabularies
+from nva.psyquizz.models.interfaces import IAccount
+from uvc.themes.btwidgets import IBootstrapRequest
+from zope.interface import Interface
 from zope.schema.interfaces import IContextSourceBinder
 from zope.schema.vocabulary import SimpleTerm, SimpleVocabulary
-from nva.psyquizz.models.interfaces import IAccount
 
 
-class IVBGTheme(IBootstrapRequest):
+class IRCITheme(IBootstrapRequest):
      pass
 
 
