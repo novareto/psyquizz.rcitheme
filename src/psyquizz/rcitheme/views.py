@@ -7,7 +7,8 @@ from .interfaces import IRCITheme
 from dolmen.forms.base.actions import Action, Actions
 from nva.psyquizz.interfaces import ICompanyRequest
 from nva.psyquizz.browser.invitations import DownloadLetter, DEFAULT
-from nva.psyquizz.browser.lib.emailer import SecureMailer, prepare, ENCODING
+from nva.psyquizz.browser.frontpages import AccountHomepage
+from nva.psyquizz.emailer import SecureMailer, ENCODING
 from dolmen.forms.base import FAILURE
 from dolmen.forms.base.widgets import FieldWidget
 from cromlech.file import FileField
@@ -24,12 +25,28 @@ class AnonIndex(AnonIndex):
     template = get_template('anon_index_new.pt')
 
 
+
+class RCIAccountHomepage(AccountHomepage):
+    uvclight.layer(IRCITheme)
+
+    template = get_template('frontpage.pt')
+
+
 class Datenschutz(uvclight.Page):
     uvclight.context(interface.Interface)
     uvclight.layer(ICompanyRequest)
     uvclight.auth.require('zope.Public')
 
     template = get_template('datenschutz.cpt')
+
+
+class Impressum(uvclight.Page):
+    uvclight.name('impressum')
+    uvclight.context(interface.Interface)
+    uvclight.layer(IRCITheme)
+    uvclight.auth.require('zope.Public')
+
+    template = get_template('impressum.cpt')
 
 
 class IEmailer(interface.Interface):
@@ -45,7 +62,6 @@ class EmailAction(Action):
             yield url, str(a.access)
 
     def emails(self, xls):
-        import pdb; pdb.set_trace()
         workbook = xlrd.open_workbook(file_contents=xls.file.read())
         sheet = workbook.sheet_by_index(0)
         for i in range(0, sheet.nrows):
@@ -61,7 +77,7 @@ class EmailAction(Action):
             for email in recipients:
                 url, token = next(tokens)
                 body = "%s\r\n\r\nDie Internetadresse lautet: <b> %s/befragung</b> <br/> Ihr Kennwort lautet: <b> %s</b>" % (text.encode('utf-8'), url, token)
-                mail = prepare(from_, email, title, body, body)
+                mail = mailer.prepare(from_, email, title, body, body)
                 sender(from_, email, mail.as_string())
 
     def __call__(self, form):

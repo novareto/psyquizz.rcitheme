@@ -15,16 +15,12 @@ class IRCITheme(IBootstrapRequest):
 
 @provider(IContextSourceBinder)
 def vocab_type(context):
-    rc = [SimpleTerm('1', '1', u'Zeitarbeit'),
-        SimpleTerm('2', '2', u'Bildungseinrichtungen'),
-        SimpleTerm('3', '3', u'Bühnen und Studios'),
-        SimpleTerm('4', '4', u'Keramische und Glas-Industrie'),
-        SimpleTerm('5', '5', u'Kirchen'),
-        SimpleTerm('6', '6', u'Kreditinstitute und Spielstätten'),
-        SimpleTerm('7', '7', u'ÖPNV/Bahnen'),
-        SimpleTerm('8', '8', u'Sicherungsdienstleistungen'),
-        SimpleTerm('9', '9', u'Sport'),
-        SimpleTerm('15', '15', u'sonstige'),
+    rc = [SimpleTerm('1', '1', u'Baustoffe - Steine – Erden'),
+        SimpleTerm('2', '2', u'Bergbau'),
+        SimpleTerm('3', '3', u'Chemische Industrie'),
+        SimpleTerm('4', '4', u'Lederindustrie'),
+        SimpleTerm('5', '5', u'Papierherstellung und Ausrüstung'),
+        SimpleTerm('6', '6', u'Zucker'),
     ]
     return SimpleVocabulary(rc)
 
