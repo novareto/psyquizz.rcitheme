@@ -3,7 +3,7 @@ import itertools
 from zope import interface
 from zope import schema
 from . import get_template
-from .interfaces import IRCITheme
+from .interfaces import IRCITheme, IRCIRegTheme
 from dolmen.forms.base.actions import Action, Actions
 from nva.psyquizz.interfaces import ICompanyRequest
 from nva.psyquizz.browser.invitations import DownloadLetter, DEFAULT
@@ -17,6 +17,16 @@ from zope.schema import interfaces as schema_interfaces
 from dolmen.forms.base.datamanagers import ObjectDataManager
 import xlrd
 from nva.psyquizz.apps.company import AnonIndex
+from nva.psyquizz.browser.forms import CreateAccount
+
+
+class CreateAccount(CreateAccount):
+    uvclight.layer(IRCIRegTheme)
+
+    @property
+    def fields(self):
+        fields = super(CreateAccount, self).fields
+        return fields.omit('captcha')
 
 
 class AnonIndex(AnonIndex):
@@ -45,7 +55,6 @@ class EmailAction(Action):
             yield url, str(a.access)
 
     def emails(self, xls):
-        import pdb; pdb.set_trace()
         workbook = xlrd.open_workbook(file_contents=xls.file.read())
         sheet = workbook.sheet_by_index(0)
         for i in range(0, sheet.nrows):
@@ -101,3 +110,7 @@ class LetterEmailer(DownloadLetter):
             )
         defaults = Letter(DE, emails=None)
         self.setContentData(ObjectDataManager(defaults))
+
+
+
+

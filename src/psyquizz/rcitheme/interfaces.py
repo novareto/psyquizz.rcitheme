@@ -13,6 +13,10 @@ class IRCITheme(IBootstrapRequest):
      pass
 
 
+class IRCIRegTheme(IBootstrapRequest):
+     pass
+
+
 @provider(IContextSourceBinder)
 def vocab_type(context):
     rc = [SimpleTerm('1', '1', u'Zeitarbeit'),
