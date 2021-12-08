@@ -1,11 +1,12 @@
 <div class="hidden-xs container">
   <ul class="list-inline">
-    <tal:loop repeat="entry viewlet.getFooter()">
-      <li tal:attributes="class entry.selected and 'active' or ''">
-	<a tal:attributes="href entry.action" tal:content="entry.title" />
+      <li>
+        <a href="fanstatic/psyquizz.rcitheme/datenschutz"> Datenschutz </a>
+        <a href="https://www.bgrci.de/barrierefreiheit" target="_blank"> Barrierefreiheit </a>
+        <a href="/impressum"> Impressum</a>
+        <a href="/logout"> Abmelden </a>
       </li>
-      <li class="divider-vertical"
-	  tal:condition="not repeat['entry'].end">&nbsp;</li>
-    </tal:loop>
   </ul>
 </div>
+
+

@@ -2,12 +2,13 @@
   <div class="page-header">
     <h1>Startseite <small tal:content="context.name" /></h1>
     <p>
-      Herzlich Willkommen bei der Online-Hilfe der VBG für Ihre
-      Gefährdungsbeurteilung psychischer Belastung. Mit diesem
-      Werkzeug können Sie die psychische Belastung unkompliziert
-      erheben. Auf den folgenden Seiten können Sie das Profil Ihres
-      Betriebes beschreiben, Befragungen anlegen, Ergebnisse einsehen
-      und mit früheren Befragungen vergleichen.
+      Herzlich Willkommen beim Online-Tool psyBel Befragung der BG RCI
+      für Ihre Gefährdungsbeurteilung psychischer Belastung. Mit
+      diesem Werkzeug können Sie die psychische Belastung
+      unkompliziert mit einem Fragebogen erheben. Auf den folgenden
+      Seiten können Sie das Profil Ihres Betriebes beschreiben,
+      Befragungen anlegen, Ergebnisse einsehen und mit früheren
+      Befragungen vergleichen.
     </p>
   </div>
   <div class="panel-group" id="accordion" role="tablist"
@@ -37,7 +38,7 @@
 	  </h3>
           <ul>
             <li tal:repeat="crit company.criterias">
-              <span tal:content="crit.title"/> 
+              <span tal:content="crit.title"/>
               <a tal:attributes="href str(company.id) + '/criterias/' + str(crit.id)"> <span class="glyphicon glyphicon-pencil"> </span>  </a>
               <!-- <a tal:attributes="href str(company.id) + '/criterias/' + str(crit.id) + '/delete'"> <span class="glyphicon glyphicon-trash"> </span>  </a> -->
             </li>
@@ -48,13 +49,13 @@
             </p>
           </div>
           <hr>
-            <h3> Befragungen 
+            <h3> Befragungen
               <small>
 		<a href="" data-toggle="tooltip" data-placement="left" tal:attributes="href view.url(context, str(company.id) + '/add.course')"> (Neue Befragung anlegen)  </a>
               </small>
             </h3>
             <div class="befragung" tal:repeat="course sorted(company.courses, key=lambda x: x.id, reverse=True)">
-              <span class="lead" tal:content="course.title"> </span> 
+              <span class="lead" tal:content="course.title"> </span>
 	      <a href="" onclick="_paq.push(['trackEvent', 'Alle Befragun löschen']);"
 		 data-toggle="tooltip" data-placement="left" title="" tal:attributes="href view.url(context,
 				 str(company.id) + '/' +
@@ -64,18 +65,18 @@
 			    <fieldset tal:repeat="session sorted(course.sessions, key=lambda x: x.id)">
 			      <dl class="dl-horizontal">
 				<dt>
-				  <b tal:content="session.title"/> 
+				  <b tal:content="session.title"/>
 				</dt>
 				<dd>
 		  <a href="" onclick="_paq.push(['trackEvent', 'Befragung bearbeiten']);" data-toggle="tooltip" data-placement="left" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/edit_course')"> <span class="glyphicon glyphicon-pencil"></span> </a>
 		  <a href="" onclick="_paq.push(['trackEvent', 'Befragung löschen']);" data-toggle="tooltip" data-placement="left" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/delete')"> <span class="glyphicon glyphicon-trash"></span> </a>
       </dd>
 
-      <dt>Fragebogen:</dt>  
-      <dd tal:content="view.quizz_name(course)"> </dd> 
+      <dt>Fragebogen:</dt>
+      <dd tal:content="view.quizz_name(course)"> </dd>
       <div tal:define="ea view.additional_questions(course)" tal:condition="ea.get('show')">
-        <dt>Zusatzfragen:</dt>  
-        <dd> 
+        <dt>Zusatzfragen:</dt>
+        <dd>
          <div tal:content="ea['title']"> </div>
 	        <ul>
 	          <li tal:repeat="label ea['content']">
@@ -89,11 +90,11 @@
       </dt>
       <dd>
       	<span class="glyphicon glyphicon-calendar"> </span>
-	<span tal:replace="'%s - %s' % (session.startdate.strftime('%d.%m.%Y'), session.enddate.strftime('%d.%m.%Y'))"></span> 
+	<span tal:replace="'%s - %s' % (session.startdate.strftime('%d.%m.%Y'), session.enddate.strftime('%d.%m.%Y'))"></span>
       </dd>
 
       <div tal:condition="session.p2p">
-	<dt>Paper2Disk:</dt> 
+	<dt>Paper2Disk:</dt>
 	<dd>
           <a tal:attributes="href view.url(context, str(company.id) + '/' +
 			     str(course.id) + '/sessions/' + str(session.id) + '/paper.pdf')">
@@ -103,7 +104,7 @@
 	  <br />
           <a tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/answer')">
             <span class="glyphicon glyphicon-upload" aria-hidden="true"></span>
-            Papierfragebögen eingeben 
+            Papierfragebögen eingeben
 	  </a>
     <!--
 	  <br />
@@ -120,55 +121,55 @@
 	</dd>
       </div>
       <dt>
-	<span tal:condition="session.strategy != 'fixed'" 
+	<span tal:condition="session.strategy != 'fixed'"
 	   data-toggle="tooltip" data-placement="left"
            title="E-Mail Vorlage mit Link zum Fragebogen und Befragungszeitraum, die an die Beschäftigten verschickt werden kann">Musteranschreiben:</span>
-	<span tal:condition="session.strategy == 'fixed'" 
+	<span tal:condition="session.strategy == 'fixed'"
 	   data-toggle="hover" data-placement="right"
            title="Anpassbarer Serienbrief zum Ausdrucken, um individuelles Kennwort und Link zur Befragung an die Beschäftigten zu verteilen">Musteranschreiben:</span>
-      </dt> 
+      </dt>
       <dd>
 	<a href="" tal:condition="session.strategy != 'fixed'" tal:attributes="href
     view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' +
     str(session.id) + '/exampletext')"> <span class="glyphicon
-      glyphicon-comment"> </span> Vorlage E-Mail  </a> 
+      glyphicon-comment"> </span> Vorlage E-Mail  </a>
 	<a tal:condition="session.strategy == 'fixed'" href="" tal:attributes="href
     view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' +
     str(session.id) + '/downloadletter')"> <span class="glyphicon
-      glyphicon-download" aria-hidden="true"> </span> Druckvorlage Serienbrief </a> 
+      glyphicon-download" aria-hidden="true"> </span> Druckvorlage Serienbrief </a>
       </dd>
-      <dt> Zugang zur Befragung: </dt> 
+      <dt> Zugang zur Befragung: </dt>
       <dd>
-	<span tal:replace="'%s' % (session.strat_title)"></span> 
+	<span tal:replace="'%s' % (session.strat_title)"></span>
       </dd>
       <div tal:condition="session.strategy == 'free'">
-        <dt>Link zum Fragebogen:</dt> 
+        <dt>Link zum Fragebogen:</dt>
         <dd>
-          <a target="_blank" href="" tal:attributes="href '%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"><span class="glyphicon glyphicon-play-circle"></span> 
+          <a target="_blank" href="" tal:attributes="href '%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"><span class="glyphicon glyphicon-play-circle"></span>
           </a>
-          <span tal:content="'%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"></span> 
+          <span tal:content="'%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"></span>
         </dd>
-        <dt>Auswertung:</dt> 
-        <dd> 
-          <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung 
+        <dt>Auswertung:</dt>
+        <dd>
+          <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung
           </a>
           <span tal:condition="len(list(session.complete)) < view.maxResults">
             Die Auswertung wird erst ab dem <b> <span
                 tal:content="view.maxResults"> </span>.</b> ausgefüllten
             Fragebogen angezeigt </span>
         </dd>
-        <dt>Ausgefüllte Fragebogen:</dt> 
+        <dt>Ausgefüllte Fragebogen:</dt>
         <dd>
-          <span class="badge" tal:content="len(list(session.complete))"> </span> 
+          <span class="badge" tal:content="len(list(session.complete))"> </span>
         </dd>
       </div>
       <div tal:condition="session.strategy == 'fixed'">
-        <dt>Link zum Fragebogen:</dt> 
+        <dt>Link zum Fragebogen:</dt>
         <dd>
-              <a target="_blank" href="" tal:attributes="href '%s/befragung' % (view.application_url())"> 
-              <span class="glyphicon glyphicon-play-circle"></span> 
+              <a target="_blank" href="" tal:attributes="href '%s/befragung' % (view.application_url())">
+              <span class="glyphicon glyphicon-play-circle"></span>
               </a>
-        <span tal:content="'%s/befragung' % (view.application_url())"></span> 
+        <span tal:content="'%s/befragung' % (view.application_url())"></span>
         </dd>
         <dt>
         <span data-toggle="tooltip" data-placement="left" title="Excel Liste der Kennwörter für den Zugang zur Befragung"> Kennwortliste </span>
@@ -188,32 +189,32 @@
          </div>
 
         </dd>
-        <dt> Auswertung: </dt> 
-        <dd> 
-        <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung 
-        </a> 
+        <dt> Auswertung: </dt>
+        <dd>
+        <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung
+        </a>
         <span tal:condition="len(list(session.complete)) < view.maxResults">
           Die Auswertung wird erst ab dem <b> <span
               tal:content="view.maxResults"> </span>.</b> ausgefüllten
           Fragebogen angezeigt </span>
         </dd>
-        <dt> Ausgefüllte Fragebogen: </dt> 
+        <dt> Ausgefüllte Fragebogen: </dt>
         <dd>
-        <span class="badge" tal:content="'%s' % (len(list(session.complete)))"> </span> 
+        <span class="badge" tal:content="'%s' % (len(list(session.complete)))"> </span>
         </dd>
       </div>
       <div tal:condition="session.strategy == 'mixed'">
-        <dt>Link zum Fragebogen:</dt> 
+        <dt>Link zum Fragebogen:</dt>
         <dd>
         <h3> Allegmeiner Link </h3>
-        <a target="_blank" href="" tal:attributes="href '%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"> 
-          <span class="glyphicon glyphicon-play-circle"></span> 
-        </a> 
-        <span tal:content="'%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"></span> 
+        <a target="_blank" href="" tal:attributes="href '%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))">
+          <span class="glyphicon glyphicon-play-circle"></span>
+        </a>
+        <span tal:content="'%s/befragung/generic-%s' % (view.application_url(), view.generic_id(session.id))"></span>
         <h3> Fixierte Links </h3>
-        <span tal:content="'%s/befragung/%s' % (view.application_url(), 'TOKEN')"></span> 
+        <span tal:content="'%s/befragung/%s' % (view.application_url(), 'TOKEN')"></span>
         </dd>
-        <dt> Tokens: </dt> 
+        <dt> Tokens: </dt>
         <dd> <span data-toggle="collapse" data-target="#tokens" href=""> +
           anzeigen </span>
           <div id="tokens" class="collapse">
@@ -227,14 +228,14 @@
            </row>
          </div>
         </dd>
-	
-        <dt> Auswertung: </dt> 
-        <dd> 
-        <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> iiii <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung 
-        </a> 
+
+        <dt> Auswertung: </dt>
+        <dd>
+        <a href="" tal:condition="len(list(session.complete)) >= view.maxResults" tal:attributes="href view.url(context, str(company.id) + '/' + str(course.id) + '/sessions/' + str(session.id) + '/sr')"> iiii <span class="glyphicon glyphicon-stats"> </span> Grafische Darstellung
+        </a>
         <span tal:condition="len(list(session.complete)) <= view.maxResults"> Die Auswertung wird erst ab dem <b> <span tal:content="view.maxResults"> </span>.</b> ausgefüllten Fragebogen angzeigt </span>
         </dd>
-        <dt> Ausgefüllte Fragebogen: </dt> 
+        <dt> Ausgefüllte Fragebogen: </dt>
         <dd>
          <span class="badge" tal:content="'%s / %s - %s' % (len(list(session.complete)), len(list(session.uncomplete)), len(list(session.anon_complete)))"> </span>
         </dd>
@@ -245,7 +246,7 @@
 	   tal:attributes="href view.url(context, str(company.id) + '/' +
 			   str(course.id) + '/add.session')"  >
 	  <span class="glyphicon glyphicon-repeat"></span><b data-toggle="tooltip" data-placement="top" title="erneute Befragung, ermöglicht Vergleiche mit den Ergebnissen der Initialbefragung" > Wiederholungsbefragung </b>
-	</a> 
+	</a>
 	</dt>
 	<dd></dd>
       </dl>
