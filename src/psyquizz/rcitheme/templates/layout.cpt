@@ -19,7 +19,9 @@
     <div id="wrapper">
       <div id="rci_logo_section" class="container">
         <div class="col-md-3">
+          <a href="" tal:attributes="href view.application_url()">
           <img src="fanstatic/psyquizz.rcitheme/rci_logo.png" />
+          </a>
         </div>
       </div>
       <div id="siteheader">

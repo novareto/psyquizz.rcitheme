@@ -1,7 +1,7 @@
 <div class="hidden-xs container">
   <ul class="list-inline">
       <li>
-        <a href="fanstatic/psyquizz.rcitheme/datenschutz"> Datenschutz </a>
+        <a href="/datenschutz"> Datenschutz </a>
         <a href="https://www.bgrci.de/barrierefreiheit" target="_blank"> Barrierefreiheit </a>
         <a href="/impressum"> Impressum</a>
         <a href="/logout"> Abmelden </a>
