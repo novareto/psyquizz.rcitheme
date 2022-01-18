@@ -24,7 +24,7 @@ aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt
 
 ABOUT_TEXT = u"""
 <p>Liebe Kolleginnen und Kollegen,</p>
-<p> herzlich Willkommen zu unserer Befragung „psyBel: Psychische Belastung erkennen – gesunde Arbeitsbedingungen gestalten“! </p>
+<p> herzlich Willkommen zu unserer Befragung „psyBel: Psychische Belastung erkennen – gesunde Arbeitsbedingungen gestalten“! Danke, dass Sie uns dabei unterstützen!</p>
 <p>Bitte beantworten Sie alle Fragen des Fragebogens.
 Beim Beantworten der Fragen kann es hilfreich sein, nicht zu lange über die einzelnen Fragen
 nachzudenken. Meist ist der erste Eindruck auch der treffendste.</p>
@@ -62,9 +62,21 @@ class CreateAccount(CreateAccount):
 
 
 CreateCompany.fields['mnr'].title = u"Mitgliedsnummer (z.B. 50.000.492.022)."
-CreateCompany.fields['mnr'].description = u"Bitte geben Sie hier Ihrer Mitgliedsnummer bei der BG RCI ein."
+CreateCompany.fields['mnr'].description = u"""Bitte tragen Sie hier die ersten acht Ziffern Ihrer Mitgliedsnummer ohne Zwischenpunkte ein (z.B.
+50000492). So können wir sicherstellen, dass nur Mitgliedsbetriebe unserer Berufsgenossenschaft diesen
+Service nutzen und somit keine Kosten durch nicht bei uns versicherte Betriebe entstehen. Ihre
+Mitgliedsnummer wird nicht dauerhaft gespeichert. Ein Rückschluss auf Ihren Betrieb ist zu keinem
+Zeitpunkt möglich."""
 
-CreateCompany.fields['exp_db'].description = u"""Ich stimme einer anonymisierten Erfassung meiner Umfrageergebnisse in einer Gesamtdatenbank zu.
-Erfasst werden Branche, Anzahl der Beschäftigten sowie Gesamtergebnisse der Befragung. Dies
-ermöglicht die Ableitung branchenspezifischer Präventionsangebote sowie die Erstellung von
-Referenzwerten. Es ist kein Rückschluss auf einzelne Unternehmen oder Personen möglich."""
+CreateCompany.fields['exp_db'].description = u"""Hier haben Sie die Möglichkeit, uns die Nutzung Ihrer Daten zu Forschungszwecken zu ermöglichen.
+Indem Sie uns angeben, aus welcher Branche Ihr Betrieb stammt und wieviel Beschäftigte Sie haben,
+helfen Sie uns bei der Entwicklung passgenauer Präventionsangebote für unsere Mitgliedsbetriebe. Bitte
+beachten Sie, eine Rückführung der Daten auf Ihren Betrieb ist zu keinem Zeitpunkt möglich. Wir
+speichern lediglich die Anzahl der Beschäftigten, die Branche sowie die Ergebnisse des Fragebogens."""
+
+CreateCompany.fields['employees'].description = u"""Falls Sie der Nutzung Ihrer Daten zu Forschungszwecken zugestimmt haben, geben Sie bitte hier an, wie
+viele Personen in Ihrem Betrieb beschäftigt sind."""
+
+CreateCompany.fields['type'].title = u"Betriebsgegenstand:"
+CreateCompany.fields['type'].description=u"""Bitte geben Sie hier an, welcher Branche Ihr Betrieb am ehesten zuzuordnen ist. Orientieren Sie sich hier
+am Geschäftszweck Ihres Betriebes."""

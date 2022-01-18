@@ -19,6 +19,18 @@ from dolmen.forms.base.datamanagers import ObjectDataManager
 import xlrd
 from nva.psyquizz.apps.company import AnonIndex
 from nva.psyquizz.browser.forms import CreateAccount
+from nva.psyquizz.browser.invitations import ExampleText
+
+
+class ExampleText(ExampleText):
+    uvclight.layer(IRCIRegTheme)
+
+    @property
+    def template(self):
+        template = "example_text.pt"
+        #if self.context.strategy == "fixed":
+        #    template = "example_text_fixed.pt"
+        return get_template(template, __file__)
 
 
 class CreateAccount(CreateAccount):
