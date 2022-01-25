@@ -24,12 +24,12 @@ from nva.psyquizz.browser.results import Quizz5Charts
 
 
 class Quizz5Charts(Quizz5Charts):
-    uvclight.layer(IRCIRegTheme)
+    uvclight.layer(IRCITheme)
     template = uvclight.get_template('quizz5_result.pt', __file__)
 
 
 class ExampleText(ExampleText):
-    uvclight.layer(IRCIRegTheme)
+    uvclight.layer(IRCITheme)
 
     @property
     def template(self):
@@ -49,7 +49,7 @@ class CreateAccount(CreateAccount):
 
 
 class AnonIndex(AnonIndex):
-    uvclight.layer(IRCITheme)
+    uvclight.layer(IRCIRegTheme)
     template = get_template('anon_index_new.pt')
 
 

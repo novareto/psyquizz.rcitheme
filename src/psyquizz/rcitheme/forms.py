@@ -50,7 +50,7 @@ class CreateCourse(CreateCourse):
     def fields(self):
         fields = super(CreateCourse, self).fields
         fields['about'].defaultValue = ABOUT_TEXT
-        return fields.omit('extra_questions')
+        return fields.omit('extra_questions', 'fixed_extra_questions')
 
 
 class CreateAccount(CreateAccount):
