@@ -20,6 +20,12 @@ import xlrd
 from nva.psyquizz.apps.company import AnonIndex
 from nva.psyquizz.browser.forms import CreateAccount
 from nva.psyquizz.browser.invitations import ExampleText
+from nva.psyquizz.browser.results import Quizz5Charts
+
+
+class Quizz5Charts(Quizz5Charts):
+    uvclight.layer(IRCIRegTheme)
+    template = uvclight.get_template('quizz5_result.pt', __file__)
 
 
 class ExampleText(ExampleText):
