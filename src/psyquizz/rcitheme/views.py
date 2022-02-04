@@ -21,6 +21,7 @@ from nva.psyquizz.apps.company import AnonIndex
 from nva.psyquizz.browser.forms import CreateAccount
 from nva.psyquizz.browser.invitations import ExampleText
 from nva.psyquizz.browser.results import Quizz5Charts
+from .forms import CreateAccount
 
 
 class Quizz5Charts(Quizz5Charts):
@@ -42,14 +43,14 @@ class ExampleText(ExampleText):
 class CreateAccount(CreateAccount):
     uvclight.layer(IRCIRegTheme)
 
-    @property
-    def fields(self):
-        fields = super(CreateAccount, self).fields
-        return fields.omit('captcha')
+    #@property
+    #def fields(self):
+    #    fields = super(CreateAccount, self).fields
+    #    return fields.omit('captcha')
 
 
 class AnonIndex(AnonIndex):
-    uvclight.layer(IRCIRegTheme)
+    uvclight.layer(IRCITheme)
     template = get_template('anon_index_new.pt')
 
 

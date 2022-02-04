@@ -14,7 +14,7 @@ from nva.psyquizz.models.interfaces import ICompany
 
 DESC = u"""
 Ja, ich habe die Datenschutzhinweise und die Informationen nach Artikel 13 DSGVO gelesen und stimme diesen zu.
-Ich willige ein, dass die VBG meine personenbezogenen Daten im Rahmen des bereitgestellten Online-Verfahrens
+Ich willige ein, dass die BGRCI meine personenbezogenen Daten im Rahmen des bereitgestellten Online-Verfahrens
 zur Gefährdungsbeurteilung psychische Belastung am Arbeitsplatz verarbeitet. Mir ist bekannt, dass ich die
 Einwilligung jederzeit widerrufen kann. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der
 aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.

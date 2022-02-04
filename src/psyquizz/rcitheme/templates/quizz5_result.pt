@@ -13,8 +13,7 @@
     </p>
     <p>
       Informationen über den weiteren Umgang mit den Ergebnissen finden Sie auf der Homepage des psyBel
-Programms ab Schritt 4: Bewerten des Risikos
-Bewerten des Risikos - BG RCI
+Programms ab Schritt 4: Bewerten des Risikos - BG RCI
     </p>
   </div>
   <form action="." tal:attributes="action view.request.url"
@@ -97,9 +96,9 @@ Bewerten des Risikos - BG RCI
                 borderWidth: 0,
                 color: '#000',
                 targetOptions: {
-                    width: 20,
-                    height: 20,
-                    borderRadius: 20,
+                    width: 40,
+                    height: 3,
+                    borderRadius: 0,
                 }
             }
         },
@@ -166,6 +165,7 @@ Bewerten des Risikos - BG RCI
     var myChart${repeat["scale"].index} = Highcharts.chart('container${repeat["scale"].index}', {
         title: {
                 enabled: true,
+                align: 'left',
                 text: '<span style="font-size: large" class="hc-cat-title">${scale.title}</span>'
         },
         xAxis: {
