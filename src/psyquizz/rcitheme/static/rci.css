@@ -6,7 +6,7 @@
 #footer {
     color: #505050;
     background-color: #f2f2f2;
-    padding: 2em 0 5em 0;
+    padding: 1em 0 3em 0;
     margin-top: 1em;
     font-size: 12px;
 }
@@ -89,4 +89,29 @@ li a#dropdown-user {
     left: 0;
     z-index: 1030;
 
+}
+
+#first-level-sitemap {
+    margin-bottom: 1px;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid white;
+}
+
+ul.first-level-sitemap {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.first-level-sitemap li a {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #505050;
+}
+
+#copyright {
+    margin-top: 20px;
+}
+
+ul.first-level-sitemap li:after {
+    content: ' | ';
 }

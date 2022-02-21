@@ -1,12 +1,23 @@
 <div class="hidden-xs container">
-  <ul class="list-inline">
+  <div id="first-level-sitemap">
+  <ul class="list-inline first-level-sitemap">
       <li>
         <a href="/datenschutz"> Datenschutz </a>
+        </li>
+        <li>
         <a href="https://www.bgrci.de/barrierefreiheit" target="_blank"> Barrierefreiheit </a>
+        </li>
+        <li>
         <a href="/impressum"> Impressum</a>
+        </li>
+        <li>
         <a href="/logout"> Abmelden </a>
       </li>
   </ul>
+  </div>
+  <div id="copyright" class="clear pull-right">
+     ©&nbsp;2022&nbsp;Berufsgenossenschaft Rohstoffe und chemische Industrie
+  </div>
 </div>
 
 
