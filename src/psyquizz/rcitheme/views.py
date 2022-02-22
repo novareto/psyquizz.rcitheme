@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import uvclight
 import itertools
 from zope import interface
@@ -26,7 +27,23 @@ from .forms import CreateAccount
 
 class Quizz5Charts(Quizz5Charts):
     uvclight.layer(IRCITheme)
-    template = uvclight.get_template('quizz5_result.pt', __file__)
+    description = u"""
+    <p>
+      Hier sehen Sie die Auswertung für alle Beschäftigten.
+    </p>
+    <p>
+      Durch Auswahl einer oder mehrerer Auswertungsgruppen haben Sie die
+      Möglichkeit sich eine detaillierte Auswertung anzeigen zu lassen.
+      (Bitte beachten Sie: Einzelne Auswertungsgruppen können erst ausgewählt
+      werden, wenn für diese Auswertungsgruppe mindestens sieben ausgefüllte
+      Fragebögen vorliegen.)
+    </p>
+    <p>
+      Informationen über den weiteren Umgang mit den Ergebnissen finden Sie auf der Homepage des psyBel
+Programms ab Schritt 4: Bewerten des Risikos - BG RCI
+    </p>
+    """
+    #template = uvclight.get_template('quizz5_result.pt', __file__)
 
 
 class ExampleText(ExampleText):
@@ -37,7 +54,7 @@ class ExampleText(ExampleText):
         template = "example_text.pt"
         #if self.context.strategy == "fixed":
         #    template = "example_text_fixed.pt"
-        return get_template(template, __file__)
+        return uvclight.get_template(template, __file__)
 
 
 class CreateAccount(CreateAccount):

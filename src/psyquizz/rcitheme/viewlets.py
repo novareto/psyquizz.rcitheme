@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import uvclight
+import ul.auth
+
 from dolmen.template import ITemplate
 from dolmen.message import receive
 from uvc.design.canvas import menus, managers
@@ -170,6 +172,9 @@ class NavigationMenuViewlet(MenuViewlet):
         menu = menus.PersonalMenu(self.context, self.request, self.view)
         menu.update()
         return menu.entries
+
+    def isAuth(self):
+        return isinstance(self.request.principal, ul.auth.Principal)
 
     
 class FlashMessages(uvclight.Viewlet):

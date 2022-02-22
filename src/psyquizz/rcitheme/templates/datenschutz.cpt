@@ -1,171 +1,651 @@
 <div>
-<h1> Datenschutzhinweise zur Verarbeitung Ihrer personenbezogenen Daten </h1>
 
-<p>Wir informieren Sie hiermit über den Datenschutz bei der Verarbeitung Ihrer personenbezoge- nen Daten (Informationspflichten nach Art. 13 Datenschutz-Grundverordnung (DSGVO)).</p>
-
-<p class="lead"> 1. Wer ist für die Datenverarbeitung verantwortlich und an wen können Sie sich wenden? </p>
-<div class="col-md-offset-1">
-  <p>
-    Verantwortliche ist:
-  </p>
-  <p>
-    Verwaltungs-Berufsgenossenschaft (RCI) Massaquoipassage 1 <br>
-    22305 Hamburg<br>
-    Tel. 040 - 5146-0<br>
-    Fax 040 - 5146-2146<br>
-    E-Mail: kundendialog@rci.de<br>
-  </p>
-  <p>
-    Die Datenschutzbeauftragte erreichen Sie unter:
-  </p>
-  <p>
-    Verwaltungs-Berufsgenossenschaft (RCI) Datenschutzbeauftragte <br>
-    Massaquoipassage 1<br>
-    22305 Hamburg<br>
-    Tel. 040 - 5146-1950<br>
-    Fax 040 - 5146-2994<br>
-  </p>
-  <p>
-    Die RCI bedient sich für die Bereitstellung des angebotenen Online-Verfahrens zur Ge-fährdungsbeurteilung psychischer Belastungen am Arbeitsplatz eines beauftragten Be-treibers.
-  </p>
-  <p>
-    Betrieb der Software:<br>
-    BG Verkehrswirtschaft Post-Logistik Telekommunikation<br>
-    Ottenser Hauptstraße54<br>
-    22765 Hamburg<br>
-  </p>
-</div>
-</div>
-<p class="lead"> 2. Wer ist für die Datenverarbeitung verantwortlich und an wen können Sie sich wenden? </p>
-<div class="col-md-offset-1">
-  <p>Mit dem Fragebogenverfahren zur Gefährdungsbeurteilung psychischer Belastung unterstützt die RCI ihre Mitgliedsbetriebe bei der Erhebung von psychischen Belas-tungen am Arbeitsplatz. Die ermittelten Belastungen im Mitgliedsbetrieb dienen auch der Dokumentation der Gefährdungsbeurteilung für den Unternehmer. </p>
-  <p>
-    Die RCI unterstützt ihre Mitgliedsbetriebe durch die Bereitstellung dieses Online-Verfahrens im Rahmen ihrer Beratungsaufgaben. Selbstverständlich können unsere Mitgliedsbetriebe auch andere Angebote und Methoden für die Gefährdungsbeurteilung psychischer Belastung heranziehen.
-  </p>
-  <p>
-    Die erhobenen Daten werden zur Durchführung und Dokumentation der Gefähr-dungsbeurteilung verarbeitet. Die Auswertungsergebnisse der Befragungen im Mit-gliedsbetrieb werden den Unternehmern ohne Personenbezug zur Verfügung gestellt.
-  </p>
-</div>
-<p class="lead"> 3. Auf welcher Rechtsgrundlage werden Ihre personenbezogenen Daten erho-ben und verarbeitet? </p>
-<div class="col-md-offset-1">
-  <p>
-    Die RCI verarbeitet Ihre personenbezogenen Daten aufgrund Ihrer Einwiligung gem. Artikel 6 Abs. 1 a DSGVO.
-  </p>
-  <p>
-    Mit der freiwilligen Nutzung des Online-Angebots der RCI können Mitgliedsbetriebe ih-rer Verpflichtung nach § 5 ArbSchG nachkommen.
-  </p>
-</div>
-<p class="lead"> 4. Welche Kategorien personenbezogener Daten können verarbeitet werden?</p>
-<div class="col-md-offset-1">
-  <p>
-    Mitgliedsbetriebe können das Online-Angebot über eine Registrierung (double-opt-in) nutzen. Dabei identifiziert sich das Unternehmen mit:
-  </p>
-  <ul>
-    <li> Name </li>
-    <li> Vorname </li>
-    <li> E-Mail-Adresse </li>
-    <li> Passwort </li>
-  </ul>
-
-  <p>
-
-    Der Nutzer (Unternehmer/Verantwortlicher im Betrieb) kann die konkreten Online-Erhebungen selbstständig konfigurieren, administrieren und durchführen.
-
-  </p>
-  <p>
-    Über einen anonymen Link werden die Beschäftigten zur konkreten Befragung gelei-tet. Anschließend wird für die Beschäftigten jeweils ein anonymer Teilnehmer gene-riert, unter dem die Beschäftigten den Fragebogen online beantworten können. Nach Abschluß der Befragung werden die Ergebnisse in die Auswertung des Betriebes übernommen.
-
-  </p>
-  <p>
+<p>
+    Datenschutzhinweise zur Verarbeitung Ihrer personenbezogenen Daten bei der
+    BG RCI
+</p>
+<p>
+    Nachgehend informieren wir Sie über die Verarbeitung Ihrer
+    personenbezogener Daten gemäß Art. 13 DSGVO.
+</p>
+<h3> 1.
+            Wer ist für die Datenverarbeitung verantwortlich und an wen können
+            Sie sich wenden?
+            </h3>
+<p>
+    <strong>Verantwortliche Stelle</strong>
+    ist:
+</p>
+<p>
+    Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)
+</p>
+<p>
+    Kurfürsten-Anlage 62
+</p>
+<p>
+    69115 Heidelberg
+</p>
+<p>
+    Tel.: 06221 5108-0
+</p>
+<p>
+    E-Mail: info@bgrci.de
+</p>
+<p>
+    Unseren <strong>Datenschutzbeauftragten</strong> erreichen Sie unter:
+</p>
+<p>
+    Der Datenschutzbeauftragte
+</p>
+<p>
+    Stabsbereich Integrität
+    <br/>
+    Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)
+    <br/>
+    Kurfürstenanlage 62
+    <br/>
+    69115 Heidelberg
+    <br/>
+    Tel. 06221 5108 0
+    <br/>
+    Fax 06221 5108 485 49
+    <br/>
+    E-Mail: datenschutz@bgrci.de
+</p>
+<p>
+    Die BG RCI bedient sich für die Bereitstellung des angebotenen
+    Online-Verfahrens zur Gefährdungsbeurteilung psychischer Belastungen am
+    Arbeitsplatz eines beauftragten Betreibers:
+</p>
+<p>
+    Technischer Betrieb des Angebots:
+    <br/>
+    BG Verkehrswirtschaft Post-Logistik Telekommunikation
+    <br/>
+    Ottenser Hauptstraße54
+    <br/>
+    22765 Hamburg
+</p>
+        <h3> 2. Allgemeine Informationen zur Datenverarbeitung</h3>
+<p>
+    Die BG RCI ist im Rahmen der gesetzlichen Aufgabenerfüllung verpflichtet,
+    die erforderlichen Daten zu erheben und zu verarbeiten. Als Träger der
+    gesetzlichen Unfallversicherung in Deutschland gehört zu unseren Aufgaben,
+    den Eintritt von Arbeitsunfällen und Berufskrankheiten zu verhindern. Nach
+    einem Arbeitsunfall oder dem Auftreten einer Berufskrankheit tragen wir die
+    Kosten, entschädigen die Versicherten und sorgen für eine umfassende
+    Rehabilitation zur Wiederherstellung der Erwerbsfähigkeit.
+</p>
+<p>
+    Eine Erhebung und Verarbeitung Ihrer personenbezogenen Daten erfolgt durch
+    uns nur, soweit dies zur Erfüllung dieser Aufgaben erforderlich ist. Eine
+    Weiterverarbeitung von personenbezogenen Daten, die für einen konkreten
+    Zweck erhoben wurden, ist nur zulässig, wenn sie für eine andere Aufgabe
+    zwingend erforderlich sind, die uns gesetzlich zugewiesen wurde.
+</p>
+<p>
+    Eine vollständige Übersicht unserer Aufgaben ist in § 199 SGB VII geregelt:
+</p>
+<ol>
+    <li>
+        die Feststellung der Zuständigkeit und des Versicherungsstatus,
+    </li>
+    <li>
+        die Erbringung der Leistungen nach dem Dritten Kapitel (SGB VII)
+        einschließlich Überprüfung der Leistungsvoraussetzungen und Abrechnung
+        der Leistungen,
+    </li>
+    <li>
+        die Berechnung, Festsetzung und Erhebung von
+        Beitragsberechnungsgrundlagen und Beiträgen nach dem Sechsten Kapitel
+        (SGB VII),
+    </li>
+    <li>
+        die Durchführung von Erstattungs- und Ersatzansprüchen,
+    </li>
+    <li>
+        die Verhütung von Versicherungsfällen, die Abwendung von
+        arbeitsbedingten Gesundheitsgefahren sowie die Vorsorge für eine
+        wirksame Erste Hilfe nach dem Zweiten Kapitel,
+    </li>
+    <li>
+        die Erforschung von Risiken und Gesundheitsgefahren für die
+        Versicherten.
+    </li>
+</ol>
+        <h3>
+           2.1. Rechtsgrundlage für die Verarbeitung personenbezogener Daten
+        </h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Gesetz (Art. 6 Abs. 1 lit. c und e DSGVO i. V. m. den jeweiligen
+    Vorschriften des Sozialgesetzbuches)
+</p>
+<p>
+    Ihre personenbezogenen Daten unterliegen dem Sozialgeheimnis.
+</p>
+<p>
+    Das bedeutet, dass wir Ihre personenbezogenen Daten nur im Umfang der
+    gesetzlichen Bestimmungen nach dem Sozialgesetzbuch (SGB) verarbeiten.
+    Unsere Beschäftigten erhalten nur dann Kenntnis von Ihren personenbezogenen
+    Daten, wenn sie diese zur Aufgabenerfüllung benötigen.
+</p>
+<p>
+    Zur Erfüllung unserer gesetzlichen Aufgaben sind wir gesetzlich befugt und
+    verpflichtet, alle für die Beurteilung Ihres Versicherungsfalles
+    erforderlichen personenbezogenen Daten zu erheben und zu verarbeiten.
+    Gesetzliche Grundlagen hierfür sind insbesondere die
+    Datenschutzgrundverordnung und das Siebte und Zehnte Buch des
+    Sozialgesetzbuches.
+</p>
+<p>
+    Da wir unsere Aufgabe nur mit vollständigen Daten erfüllen können, haben
+    Sie in diesem Umfang auch eine Mitwirkungspflicht nach § 60 SGB I. Wenn Sie
+    dieser Mitwirkungspflicht nicht nachkommen, kann es sein, dass wir nicht
+    ermitteln können, ob Ihr Anspruch zutreffend ist. Damit gingen Nachteile
+    für Sie einher.
+</p>
+<p>
+    Als Unternehmer haben Sie eine Mitteilungs- und Auskunftspflicht nach § 192
+    SGB VII.
+</p>
+<p>
+    Soweit möglich werden wir versuchen, die erforderlichen personenbezogenen
+    Daten direkt bei Ihnen zu erheben. Da das nicht immer möglich ist, gibt es
+    gesetzliche Ausnahmen von diesem Direkterhebungsgrundsatz. Die Daten dürfen
+    dann bei anderen Stellen angefordert werden, wie z.B. von Ihren
+    behandelnden Ärzten, Ihrem Arbeitgeber oder Ihrer Krankenkasse. In diesen
+    Fällen haben Sie das Recht, über die übermittelten Daten informiert zu
+    werden.
+</p>
+<p>
+    Einwilligung (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO)
+</p>
+<p>
+    Soweit eine Datenverarbeitung mit Ihrer Einwilligung als sinnvoll erachtet
+    wird, werden wir Ihnen bei der Einholung Ihrer Einwilligung die Vor- und
+    Nachteile Ihrer freien Entscheidung erläutern.
+</p>
+        <h2>2.2. Dauer der Speicherung der personenbezogener Daten</h2>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Die Daten werden solange gespeichert, wie wir sie zur Erfüllung unserer
+    gesetzlich zugewiesenen Aufgaben einschließlich Aufbewahrungspflichten
+    benötigen.
+</p>
+<p>
+    Die Speicherdauer hängt von verschiedenen Faktoren ab. Beispiele:
+    <br/>
+    Soweit es sich um Rechnungsdaten oder rechnungsbegründende Unterlagen
+    handelt, ist eine Aufbewahrungspflicht von sechs bzw. zehn Jahren
+    vorgeschrieben.
+</p>
+<p>
+    Soweit es sich um Unfalldaten oder Angaben im Zusammenhang mit
+    Berufskrankheiten handelt, hängt die Speicherdauer davon ab, wie lange die
+    Daten auch nach Abschluss des Verwaltungsverfahrens erforderlich sein
+    können (z. B. bei Folgebeschwerden).
+</p>
+<p>
+    Soweit es sich um Akten zur Veranlagung der Unternehmen zum Gefahrtarif
+    handelt (Fragebogen, Veranlagungsbescheide usw.), ist die Aufbewahrung bis
+    zum Ablauf der folgenden Tarifperiode erforderlich.
+</p>
+        <h3>
+            2.3. Recht auf Auskunft, Berichtigung und Löschung der personenbezogenen
+            Daten
+        </h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Sie haben jederzeit ein Recht auf Auskunft über die personenbezogenen
+    Daten, die Sie betreffen und die wir verarbeiten. Daneben haben Sie ein
+    Recht auf Einsicht in alle Sie betreffenden Akten, die die BG RCI über Sie
+    führt. Einschränkungen sind unter bestimmten Voraussetzungen gesetzlich
+    vorgesehen, insbesondere wenn in Ihrem eigenen Interesse einzelne Angaben
+    unmittelbar von einem Arzt erläutert werden sollten oder wenn Rechte
+    Dritter betroffen sind.
+</p>
+<p>
+    Darüber hinaus haben Sie auch das Recht auf Berichtigung, Löschung und
+    Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Dafür müssen
+    allerdings die Voraussetzungen dieser Vorschriften erfüllt sein.
+</p>
+<p>
+    Bitten wenden Sie sich in diesen Fällen an den Datenschutzbeauftragten der
+    BG RCI, die Kontaktdaten finden Sie oben unter 1.
+</p>
+        <h3>2.4. Ihr Widerrufsrecht</h3>
+<p>
+    Wie oben beschrieben, beruht die Datenverarbeitung in der gesetzlichen
+    Unfallversicherung grundsätzlich auf einer gesetzlichen Grundlage. In
+    diesen Fällen steht Ihnen kein Widerrufsrecht zu.
+</p>
+<p>
+    Soweit die Datenverarbeitung jedoch mit Ihrer Einwilligung vorgenommen
+    wurde, können Sie Ihre Einwilligung jederzeit widerrufen. Allerdings gilt
+    der Widerruf Ihrer Einwilligung nur für die Zukunft und nicht für die
+    Vergangenheit. Die bis zu dem Zeitpunkt Ihres Widerrufs vorgenommene
+    Datenverarbeitung bleibt damit rechtmäßig.
+</p>
+<p>
+    Den Widerruf müssen Sie gegenüber der BG RCI erklären. Sie finden unsere
+    Kontaktdaten unter Ziffer 1.
+</p>
+        <h3>2.5. Ihr Beschwerderecht</h3>
+<p>
+    Sollten Sie der Ansicht sein, bei der Verarbeitung Ihrer personenbezogenen
+    Daten in Ihren Rechten verletzt worden zu sein, können Sie sich auch an die
+    für die BG RCI zuständige Datenschutzaufsichtsbehörde wenden.
+</p>
+<p>
+    Die für uns zuständige Datenschutzaufsichtsbehörde ist:
+</p>
+<p>
+    Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+    <br/>
+    Graurheindorfer Str. 153
+    <br/>
+    53117 Bonn
+</p>
+<p>
+    <a href="https://www.bfdi.bund.de/DE/Home/home_node.html">
+        Zum Bundesbeauftragten für den Datenschutz und die Informationsfreiheit
+        wechseln
+    </a>
+</p>
+        <h3>
+            3. Zwecke und Rechtsgrundlagen für die Verarbeitung personenbezogener
+            Daten bei informatorischer Nutzung der Webseite
+        </h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+    <h5> 3.1.
+        Sofern Sie die Webseite nur informatorisch besuchen (d.h. Nutzung ohne
+        Registrierung, Anmeldung oder sonstiger Kommunikation mit der BG RCI),
+        werden durch Ihren Browser Informationen übermittelt:
+    </h5>
+<ul>
+    <li>
+        Browsertyp/ -version
+    </li>
+    <li>
+        verwendetes Betriebssystem
+    </li>
+    <li>
+        Referrer URL (die zuvor besuchte Seite)
+    </li>
+    <li>
+        Hostname des zugreifenden Rechners (IP Adresse)
+    </li>
+    <li>
+        Datum und Uhrzeit der Serveranfrage.
+    </li>
+</ul>
+<p>
+    Die Daten werden in den Logfiles unseres Systems gespeichert. Eine
+    Zusammenführung dieser Daten mit anderen personenbezogenen Datenquellen
+    wird nicht vorgenommen.
+</p>
+<p>
+    <strong>Rechtsgrundlage für die Verarbeitung</strong>
+</p>
+<p>
+    Rechtsgrundlage für die vorübergehende Speicherung der Daten und der
+    Logfiles ist Art. 6 Abs. 1 lit. f DSGVO.
+</p>
+<p>
+    <strong>Zweck der Verarbeitung</strong>
+</p>
+<p>
+    Wie speichern Ihre IP-Adresse vorübergehend, um die Webseite an Ihren
+    Rechner auszuliefern. Hierfür muss die Ihnen zugeordnete IP-Adresse für die
+    Dauer der Sitzung gespeichert bleiben.
+</p>
+<p>
+    Wir speichern die angegebenen Daten in Logfiles, um die Funktionsfähigkeit
+    der Webseite sicherzustellen. Darüber hinaus diesen diese Daten zur
+    Optimierung der Webseite und zur Sicherstellung der Sicherheit unserer
+    informationstechnischen Systeme.
+</p>
+<p>
+    Eine Verwendung Ihrer Daten für Zwecke das Marketings findet nicht statt.
+    In diesen Zwecken liegt auch unser berechtigtes Interesse an der
+    Datenverarbeitung nach Art. 6 Abs. 1 lit. f DSGVO.
+</p>
+<p>
+    <strong>Dauer der Speicherung der personenbezogenen Daten</strong>
+</p>
+<p>
+    Die Daten werden gelöscht, wenn die jeweilige Sitzung beendet ist.
+</p>
+<p>
+    Darüber hinaus speichern wir Logfiles für einen kurzen Zeitraum, um eine
+    missbräuchliche Nutzung unserer Webseite ermitteln zu können. Sollte dieser
+    Fall tatsächlich eintreten, speichern wir diese Daten solange, bis sie zu
+    Beweiszwecken nicht mehr erforderlich sind.
+</p>
+        <h3>3.2. Cookies</h3>
+<p>
+    Die Webseite verwendet an mehreren Stellen so genannte Cookies. Sie dienen
+    dazu, unser Angebot nutzungsfreundlicher, effektiver und sicherer zu
+    machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt
+    werden und die Ihr Browser speichert.
+</p>
+<p>
+    Einige Elemente unserer Webseite erfordern es, dass der aufrufende Browser
+    auch nach einem Seitenwechsel identifiziert werden kann. In den Cookies
+    werden dabei folgende Daten gespeichert und übermittelt:
+</p>
+<ol>
+    <li>
+        Log-In-Informationen
+    </li>
+</ol>
+<ol>
+    <li>
+        Sitzungseinstellungen
+    </li>
+</ol>
+<p>
+    Unsere Webseite verwendet nur technisch notwendige Cookies.
+</p>
+<p>
+    <strong>Rechtsgrundlage für die Verarbeitung</strong>
+</p>
+<p>
+    Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter
+    Verwendung technisch notwendiger Cookies ist Art. 6 Abs. 1 lit. f DSGVO.
+</p>
+<p>
+    <strong>Zweck der Verarbeitung</strong>
+</p>
+<p>
+    Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung von
+    Webseiten für Nutzerinnen und Nutzer zu vereinfachen. Einige Funktionen
+    unserer Webseite können ohne den Einsatz von Cookies nicht angeboten
+    werden. Die durch technisch notwendige Cookies erhobenen Daten von
+    Nutzenden werden nicht zur Erstellung von Nutzendenprofilen verwendet.
+</p>
+<p>
+    <strong>Dauer der Speicherung der personenbezogenen Daten</strong>
+</p>
+<p>
+    Cookies werden auf Ihrem Rechner gespeichert. Über Ihren Internetbrowser
+    können Sie daher Ihre Cookies verwalten, dh. löschen oder eine Einstellung
+    wählen, die das Setzen aller Cookies unterbindet. Vorsorglich weisen wir
+    darauf hin, dass in diesem Fall ggf. einzelne Funktionen unserer Webseite
+    nur eingeschränkt funktionieren.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+        <h3>3.3. E-Mailkontakt</h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Sie haben die Möglichkeit, die BG RCI über die auf der Webseite angegebenen
+    E-Mailadresse zu kontaktieren. In diesem Fall werden die mit der E-Mail
+    übermittelten personenbezogenen Daten gespeichert.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    <strong>Rechtsgrundlage für die Datenverarbeitung</strong>
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Rechtsgrundlage für die Verarbeitung der Daten, die im Zuge einer
+    Übersendung eine E-Mail übermittelt werden, ist Art. 6 Abs. 1 lit. f DSGVO.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    <strong>Zweck der Datenverarbeitung</strong>
+</p>
+<p>
+    Wir verarbeiten Ihre im Rahmen der Kontaktaufnahme übermittelten Daten
+    ausschließlich zur Bearbeitung Ihrer Anfrage. Hierin liegt das berechtigte
+    Interesse an der Verarbeitung Ihrer Daten.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    <strong>Dauer der Speicherung der personenbezogener Daten</strong>
+</p>
+<p>
+    Die o.g. personenbezogenen Daten werden gelöscht, wenn die Anfrage
+    abschließend bearbeitet wurde, es sei denn, dass aus anderen gesetzlichen
+    Gründen eine längere Aufbewahrung notwendig ist.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+        <h3>
+            4. Zwecke und Rechtsgrundlagen für die Verarbeitung personenbezogener
+            Daten bei Nutzung der Webseite
+            bei Verwendung des Angebots zur Gefährdungsbeurteilung psychischer
+            Belastung
+        </h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Die nachfolgenden Informationen gelten <strong>zusätzlich</strong> zu den
+    oben gemachten Ausführungen, sofern nachfolgend nicht anders beschrieben.
+</p>
+        <h3>4.1. Zweck der Datenverarbeitung</h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Mit dem Fragebogenverfahren zur Gefährdungsbeurteilung psychischer
+    Belastung unterstützt die BG RCI ihre Mitgliedsbetriebe bei der Erhebung
+    von psychischen Belastungen am Arbeitsplatz. Die ermittelten Belastungen im
+    Mitgliedsbetrieb dienen auch der Dokumentation der Gefährdungsbeurteilung
+    für den Unternehmer.
+</p>
+<p>
+    Die BG RCI unterstützt ihre Mitgliedsbetriebe durch die Bereitstellung
+    dieses Online-Verfahrens im Rahmen ihrer Beratungsaufgaben.
+    Selbstverständlich können unsere Mitgliedsbetriebe auch andere Angebote und
+    Methoden für die Gefährdungsbeurteilung psychischer Belastung heranziehen.
+</p>
+<p>
+    Die erhobenen Daten werden zur Durchführung und Dokumentation der
+    Gefährdungsbeurteilung verarbeitet. Die Auswertungsergebnisse der
+    Befragungen im Mitgliedsbetrieb werden den Unternehmern ohne Personenbezug
+    zur Verfügung gestellt.
+</p>
+        <h3>4.2. Rechtsgrundlage der Datenverarbeitung</h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Die BG RCI verarbeitet Ihre personenbezogenen Daten aufgrund Ihrer
+    Einwilligung gem. Artikel 6 Abs. 1 a DSGVO.
+</p>
+<p>
+    Mit der freiwilligen Nutzung des Online-Angebots der BG RCI können
+    Mitgliedsbetriebe ihrer Verpflichtung nach § 5 ArbSchG nachkommen.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+        <h3>
+            4.3. Verwendung von Google reCAPTCHA bei Erst-Registrierung der
+            Unternehmen
+        </h3>
+<p>
+    Um ein missbräuchliche Anmeldung und eine absichtliche Überlastung unseres
+    Angebots zu verhindern, verwenden wir auf Grundlage von Art. 6 Abs. 1 S. 1
+    lit. f DSGVO den Service reCAPTCHA des Unternehmens Google Inc. Um diesen
+    Service nutzen zu können, muss die IP-Adresse und ggf. weitere von Google
+    für den Dienst reCAPTCHA benötigter Daten an Google übermittelt werden.
+    Hierfür gelten die abweichenden Datenschutzbestimmungen von Google Inc.
+    Weitere Informationen zu den Datenschutzrichtlinien von Google Inc. finden
+    Sie unter https://www.google.com/intl/de/policies/privacy/.
+</p>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+        <h3>4.4. Darstellung der Kategorien personenbezogener Daten</h3>
+<p>
+    <strong></strong>
+    <br/>
+</p>
+<p>
+    Mitgliedsbetriebe können das Online-Angebot über eine Registrierung
+    (double-opt-in) nutzen. Dabei identifiziert sich das Unternehmen mit:
+</p>
+<ul>
+    <li>
+        Name
+    </li>
+    <li>
+        Vorname
+    </li>
+    <li>
+        E-Mail-Adresse
+    </li>
+    <li>
+        Name des Unternehmens,
+    </li>
+    <li>
+        Mitgliedsnummer
+    </li>
+    <li>
+        Passwort
+    </li>
+</ul>
+<p>
+    Der Nutzer oder die Nutzerin (Unternehmer(in)/Verantwortliche(r) im
+    Betrieb) kann die konkreten Online-Erhebungen selbstständig konfigurieren,
+    administrieren und durchführen.
+</p>
+<p>
+    Über einen anonymen Link werden die Beschäftigten zur konkreten Befragung
+    geleitet. Anschließend wird für die Beschäftigten jeweils ein anonymer
+    Teilnehmer generiert, unter dem die Beschäftigten den Fragebogen online
+    beantworten können. Nach Abschluss der Befragung werden die Ergebnisse in
+    die Auswertung des Betriebes übernommen.
+</p>
+<p>
     Vom Unternehmer frei zu vergebende Angaben:
-  </p>
-  <ul>
-    <li> Name des Unternehmens </li>
-    <li> Branche </li>
-    <li> Abteilung </li>
-    <li> Freigabe der Daten für die Forschungsdatenbank</li>
-  </ul>
-  <p>
+</p>
+<ul>
+    <li>
+        Name des Unternehmens
+    </li>
+    <li>
+        Branche
+    </li>
+    <li>
+        Abteilung
+    </li>
+    <li>
+        Freigabe der Daten für die Forschungsdatenbank
+    </li>
+</ul>
+<p>
     Spezifische Daten zur Erhebung ergeben sich im Übrigen aus dem Fragebogen.
-  </p>
-  <ul>
-    <li> Beschreibung der Befragung</li>
-    <li> Startdatum</li>
-    <li> Dauer</li>
-    <li> Einführungstext</li>
-    <li>  Antworten der Ehebung</li>
-  </ul>
-</div>
-<p class="lead"> 5. Wer erhält Kenntnis von Ihren personenbezogenen Daten? </p>
-<div class="col-md-offset-1">
-  <p>
-    Nach Abschluss der Erhebung können sich die Mitgliedsbetriebe statistische Auswer-tungen in aggregierter Form ansehen. Diese Ergebnisse sollen dann als Grundlage für Verbesserungsmaßnahmen im Unternehmen herangezogen werden. Auswertun-gen können nur dann betrachtet werden, wenn die entsprechende Ergebnismenge mindestens sieben Rückläufer umfasst. 
-  </p>
-  <p>
-    Bei Freigabe der Daten zur Verarbeitung in der Forschungsdatenbank, können be-stimmte Beschäftigte der Prävention der RCI auf die reinen Ergebnisdaten zugreifen. Konkret bekommt dieser Personenkreis eine aggregierte Ansicht (DBView) auf die Erhebungsdaten und Fragen zur Größe und Branche des Untenehmens. Auch hier gibt es weder die Möglichkeit Rückschlüsse auf einzelne Beschäftigte noch auf das entsprechende Unternehmen zu ziehen.
-  </p>
-  <p>
-    Wir geben Ihre Daten nur an Dritte weiter, wenn Sie Ihre nach Art. 6 Abs. 1 a DSGVO ausdrückliche Einwilligung dazu erteilt haben.
-  </p>
-</div>
-
-<p class="lead"> 6. Wie lange werden Ihre personenbezogenen Daten gespeichert? </p>
-<div class="col-md-offset-1">
-  <p>
-  Die Daten werden ausschließlich von den Unternehmen selbst verwaltet. Auch über eine Löschung entscheidet das Untenehmen.
-  </p>
-  <p>
-  Sollte das Unternehmen die Daten nicht selbst löschen, werden die Umfragedaten nach 5 Jahren automatisch gelöscht.
-  </p>
-  <p>
-
-  Gibt das Unternehmen seine Daten für die Forschungsdatenbank frei, werden folgen-de Daten dauerhaft gespeichert:
-  <ul>
-    <li> Anworten der Erhebung </li>
-    <li> Mitarbeiteranzahl des Unternehmens (Größenklasse) </li>
-    <li> Branche des Unternehmens </li>
-  </ul>
-  </p>
-</div>
-
-
-<p class="lead"> 7. Welche Datenschutzrechte haben Sie? </p>
-<div class="col-md-offset-1">
-  <p>
-  Sie haben jederzeit ein Recht auf Auskunft über Ihre personenbezogenen Daten, die die RCI verarbeitet. 
-  </p>
-  <p>
-  Soweit die gesetzlichen Voraussetzungen erfüllt sind, haben Sie auch das Recht auf Berichtigung, Löschung, Einschränkung der Verarbeitung Ihrer personenbezogenen Daten (Art. 15 – 18 DSGVO).
-  </p>
-</div>
-
-<p class="lead"> Ihr Widerrufsrecht </p>
-<div class="col-md-offset-1">
+</p>
+<ul>
+    <li>
+        Beschreibung der Befragung
+    </li>
+    <li>
+        Startdatum
+    </li>
+    <li>
+        Dauer
+    </li>
+    <li>
+        Einführungstext
+    </li>
+    <li>
+        Antworten der Erhebung
+    </li>
+</ul>
+        <h3>4.5. Wer erhält Kenntnis von Ihren personenbezogenen Daten?</h3>
 <p>
-Wurde die Datenverarbeitung mit Ihrer Einwilligung vorgenommen, haben Sie selbst- verständlich jederzeit das Recht Ihre Einwilligung zu widerrufen. Beachten Sie je- doch, dass der Widerruf nicht rückwirkend möglich ist, das heißt die bis zum Widerruf erfolgten Verarbeitungen bleiben rechtmäßig.
+    Nach Abschluss der Erhebung können sich die Mitgliedsbetriebe statistische
+    Auswertungen in aggregierter Form ansehen. Diese Ergebnisse sollen dann als
+    Grundlage für Verbesserungsmaßnahmen im Unternehmen herangezogen werden.
+    Auswertungen können nur dann betrachtet werden, wenn die entsprechende
+    Ergebnismenge mindestens sieben Rückläufer umfasst.
 </p>
 <p>
-Den Widerruf können Sie gegenüber der Verantwortlichen abgeben (siehe 1. Wer ist für die Datenverarbeitung verantwortlich und an wen können Sie sich wenden?).
+    Bei Freigabe der Daten zur Verarbeitung in der Forschungsdatenbank, können
+    bestimmte Beschäftigte der Prävention der BG RCI auf die reinen
+    Ergebnisdaten zugreifen. Konkret bekommt dieser Personenkreis eine
+    aggregierte Ansicht (DBView) auf die Erhebungsdaten und Fragen zur Größe
+    und Branche des Unternehmens. Auch hier gibt es weder die Möglichkeit
+    Rückschlüsse auf einzelne Beschäftigte noch auf das entsprechende
+    Unternehmen zu ziehen.
 </p>
-</div>
-
-<p class="lead"> 9. Ihr Beschwerderecht </p>
-<div class="col-md-offset-1">
 <p>
-Sollten Sie der Ansicht sein, bei der Verarbeitung Ihrer personenbezogenen Daten in Ihren Rechten verletzt worden zu sein, können Sie sich auch an die Datenschutzauf- sichtsbehörde wenden.
+    Wir geben Ihre Daten nur an Dritte weiter, wenn Sie Ihre nach Art. 6 Abs. 1
+    a DSGVO ausdrückliche Einwilligung dazu erteilt haben.
 </p>
-
 <p>
-Zuständige Datenschutzaufsichtsbehörde für die RCI ist:
+    <strong></strong>
+    <br/>
 </p>
-
+        <h3>
+            4.6. Wie lange werden Ihre personenbezogenen Daten gespeichert?
+        </h3>
 <p>
-Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit <br>
-Husarenstr. 30 <br>
-53117 Bonn<br>
-Tel. 0228 997799-0<br>
-Fax 0228 997799-550 <br>
-poststelle@bfdi.bund.de <br>
+    <strong></strong>
+    <br/>
 </p>
-
+<p>
+    Die Daten werden ausschließlich von den Unternehmen selbst verwaltet. Auch
+    über eine Löschung entscheidet das Unternehmen. Sollte das Unternehmen die
+    Daten nicht selbst löschen, werden die Umfragedaten nach 5 Jahren
+    automatisch gelöscht.
+</p>
+<p>
+    Gibt das Unternehmen seine Daten für die Forschungsdatenbank frei, werden
+    folgende Daten dauerhaft gespeichert:
+</p>
+<ul>
+    <li>
+        Antworten der Erhebung
+    </li>
+    <li>
+        Mitarbeiteranzahl des Unternehmens (Größenklasse)
+    </li>
+    <li>
+        Branche des Unternehmens
+    </li>
+</ul>
 </div>

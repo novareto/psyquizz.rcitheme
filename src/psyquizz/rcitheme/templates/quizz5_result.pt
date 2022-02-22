@@ -1,20 +1,7 @@
 <div>
   <div class="header">
-    <h1>Ergebnisse</h1>
-    <p>
-      Hier sehen Sie die Auswertung für alle Beschäftigten.
-    </p>
-    <p>
-      Durch Auswahl einer oder mehrerer Auswertungsgruppen haben Sie die
-      Möglichkeit sich eine detaillierte Auswertung anzeigen zu lassen.
-      (Bitte beachten Sie: Einzelne Auswertungsgruppen können erst ausgewählt
-      werden, wenn für diese Auswertungsgruppe mindestens sieben ausgefüllte
-      Fragebögen vorliegen.)
-    </p>
-    <p>
-      Informationen über den weiteren Umgang mit den Ergebnissen finden Sie auf der Homepage des psyBel
-Programms ab Schritt 4: Bewerten des Risikos - BG RCI
-    </p>
+    <h1>Ergebnisse </h1>
+    <div tal:replace="structure view.description"> </div>
   </div>
   <form action="." tal:attributes="action view.request.url"
         tal:define="current view.stats.filters.get('criterias', {})">
