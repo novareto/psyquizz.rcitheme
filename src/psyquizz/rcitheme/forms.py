@@ -7,7 +7,7 @@ import uvclight
 from .interfaces import IRCITheme
 from zope import schema, interface
 from nva.psyquizz.models import IAccount
-from nva.psyquizz.browser.forms import CreateAccount, CreateCompany, CreateCourse
+from nva.psyquizz.browser.forms import CreateAccount, CreateCompany, CreateCourse, AddSession
 from nva.psyquizz.browser.forms import IVerifyPassword, ICaptched
 from nva.psyquizz.models.interfaces import ICompany
 
@@ -51,6 +51,9 @@ class CreateCourse(CreateCourse):
         fields = super(CreateCourse, self).fields
         fields['about'].defaultValue = ABOUT_TEXT
         return fields.omit('extra_questions', 'fixed_extra_questions')
+
+
+AddSession.fields['about'].defaultValue = ABOUT_TEXT
 
 
 class CreateAccount(CreateAccount):

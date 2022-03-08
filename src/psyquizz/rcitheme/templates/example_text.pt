@@ -38,7 +38,8 @@ eine Rückverfolgung wird nicht möglich sein.  </p>
 
 <br>
 <p> <b><span tal:content="'%s/befragung/generic-%s' % (view.application_url(), view.generic_id(context.id))"/></b> </p>
-<p>Über diesen Link gelangen Sie direkt auf den Fragebogen unseres Unternehmens. Das Ausfüllen wird etwa 5 Minuten in Anspruch nehmen. </p>
+<br>
+<p>Über diesen Link gelangen Sie direkt auf den Fragebogen unseres Unternehmens. Das Ausfüllen wird etwa 15 Minuten in Anspruch nehmen. </p>
 <p>Nehmen Sie sich diese Zeit und sagen Sie uns Ihre Meinung. Vielen Dank für Ihre Teilnahme!</p>
 <p>Sollten Sie Fragen oder Anmerkungen haben, wenden Sie sich bitte an: <br> Ansprechpartner und Kontaktdaten</p>
 </div>

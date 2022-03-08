@@ -115,3 +115,7 @@ ul.first-level-sitemap li a {
 ul.first-level-sitemap li:after {
     content: ' | ';
 }
+
+a {
+  text-decoration: underline;
+}

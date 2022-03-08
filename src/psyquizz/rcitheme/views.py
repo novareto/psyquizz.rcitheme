@@ -28,9 +28,27 @@ from .forms import CreateAccount
 class Quizz5Charts(Quizz5Charts):
     uvclight.layer(IRCITheme)
     description = u"""
-    <p>
-      Hier sehen Sie die Auswertung für alle Beschäftigten.
-    </p>
+        <p>
+        Im Folgenden wird für die Befragungsergebnisse dargestellt, wie sich diese auf die Gesundheit der
+        Mitarbeiterinnen und Mitarbeiter auswirken. Die blaue Markierung kennzeichnet dabei Ihr Ergebniss
+        für den jeweiligen Bereich. Ergebnisse innerhalb des roten Balkens deuten auf ein
+        erhöhtes Gesundheitsrisko hin, Ergebnisse innerhalb des gelben Balkens stehen für ein leicht
+        erhöhtes Gesundheitsrisiko und bei Ergebnissen innerhalb des grünen Balkens scheint alles in
+        Ordnung.
+        </p>
+        <p>
+        Die Wirkung der einzelnen Bereiche aus der Befragung auf die Gesundheit ist unterschiedlich stark.
+        So hat der Bereich „Soziale Stressoren unter Kollegen“ eine schädigendere Wirkung als z. B.
+        „Informationsmängel“. Daher setzt der rote Balken dort früher ein als bei „Informationsmängeln“.
+        Außerdem gibt es Bereiche, sogenannte Ressourcen, bei denen gilt „je mehr je besser“. Deshalb
+        beginnt beispielsweise bei „Handlungsspielraum“ die Grafik mit dem roten Balken und und endet mit
+        dem grünen.
+        <p>
+        Eine Definition der einzelnen Bereiche (z. B. Vollständigkeit der Aufgabe) erhalten Sie, indem Sie mit
+        der Mouse über den Text fahren. Eine Gesamtübersicht der Bereichsdefinitionen können Sie
+        <a target="_blank" href="/fanstatic/nva.psyquizz/kurzerlauterungen_fbgu_skalen.pdf">hier</a> herunterladen.
+        </p>
+
     <p>
       Durch Auswahl einer oder mehrerer Auswertungsgruppen haben Sie die
       Möglichkeit sich eine detaillierte Auswertung anzeigen zu lassen.
@@ -94,6 +112,13 @@ class Impressum(uvclight.Page):
 
     template = get_template('impressum.cpt')
 
+class BF(uvclight.Page):
+    uvclight.name('bf')
+    uvclight.context(interface.Interface)
+    uvclight.layer(IRCITheme)
+    uvclight.auth.require('zope.Public')
+
+    template = get_template('bf.cpt')
 
 class IEmailer(interface.Interface):
     emails = FileField(title=u"Recipients", required=False)

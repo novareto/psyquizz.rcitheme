@@ -174,7 +174,7 @@ class NavigationMenuViewlet(MenuViewlet):
         return menu.entries
 
     def isAuth(self):
-        return isinstance(self.request.principal, ul.auth.Principal)
+        return hasattr(self.request, 'principal') and isinstance(self.request.principal, ul.auth.Principal)
 
     
 class FlashMessages(uvclight.Viewlet):
