@@ -25,7 +25,6 @@ class RCIFooter(uvclight.ViewletManager):
         pass
 
 
-
 class BGHeader(BGHeader):
     uvclight.layer(IRCITheme)
     template = get_template('header.cpt')
@@ -185,3 +184,10 @@ class FlashMessages(uvclight.Viewlet):
 
     def update(self):
         self.messages = [msg.message for msg in receive()]
+
+
+class CookieFirst(uvclight.Viewlet):
+    uvclight.viewletmanager(managers.IAboveContent)
+    uvclight.order(00)
+    uvclight.name('cookiefirst')
+    template = uvclight.get_template('cookiefirst.cpt', __file__)

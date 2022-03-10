@@ -23,6 +23,7 @@ from nva.psyquizz.browser.forms import CreateAccount
 from nva.psyquizz.browser.invitations import ExampleText
 from nva.psyquizz.browser.results import Quizz5Charts
 from .forms import CreateAccount
+from nva.psyquizz.browser.help import HelpCourse
 
 
 class Quizz5Charts(Quizz5Charts):
@@ -191,4 +192,5 @@ class LetterEmailer(DownloadLetter):
 
 
 
+HelpCourse.template = get_template('help_course.cpt')
 

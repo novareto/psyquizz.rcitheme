@@ -1,0 +1,68 @@
+<div class="row">
+<div class="modal fade" id="myModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Hilfe</h4>
+      </div>
+      <div class="modal-body">
+        <a href="https://www.bgetem.de/arbeitssicherheit-gesundheitsschutz/themen-von-a-z-1/arbeitsbedingte-gesundheitsgefahren/psychische-belastung-und-beanspruchung/gemeinsam-zu-gesunden-arbeitsbedingungen-beurteilung-psychischer-belastung/video-tutorials-zum-online-tool-zur-erfassung-psychischer-belastung-1/befragung-anlegen" target="_blank" class="pull-right"> <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Erklärfilm </a>
+        <p class="lead"> Befragung anlegen </p>
+        <h3> Fragebogen auswählen </h3>
+        <p>
+        Sie können aus zwei verschiedenen universell einsetzbaren Fragebögen auswählen.
+        <p>
+        <p>
+        <p>
+        <b> Fragebogen zur Gefährdungsbeurteilung psychischer Belastung (FGBU) </b> <br/>
+        Ein umfangreicherer Fragebogen (67 Fragen), der die Merkmalsbereiche der GDA-Empfehlung
+zur Umsetzung der Gefährdungsbeurteilung psychischer Belastung abdeckt und auch
+Umgebungseinflüsse abfragt. Mit Hilfe von jeweils unterschiedlichen Risiko-Werten bietet er eine
+solide Orientierung, ab wann in den jeweiligen Themenfeldern Handlungsbedarf besteht.
+        <a target="_blank" href="fanstatic/nva.psyquizz/fbgu.pdf"> Download FBGU </a>
+        </p>
+        </p>
+
+        <h3> Zusatzfragen anlegen </h3>
+        <p> Eigene Zusatzfragen zum Fragebogen erstellen, die am Ende des Fragebogens angezeigt werden. Zusätzlich können Sie festlegen, ob sich der Nutzer für eine Antwort entscheiden muss oder auch mehrere Antworten auswählen kann („Auswahlformat“).  Anschließend können Sie die möglichen Antworten eingeben.
+        Die Auswertung erfolgt durch tabellarische Darstellung der Anzahl der Antworten pro Antwortmöglichkeit.
+        </p>
+
+        <h3> Auswertungsgruppen festlegen </h3>
+        <p> Diese Auswahl erscheint später auf der ersten Seite des „Fragebogens“ und die Beschäftigten wählen
+        aus, zu welcher Auswertungsgruppe Sie gehören. Nur für diese Auswertungsgruppen können Sie sich
+        nach Ablauf der Befragung separate Ergebnisse anzeigen lassen.</p>
+        <p> <h3> Zugang zur Befragung </h3> </p>
+        <p> Es stehen zwei Alternativen zur Verfügung: </p>
+        <p><b> Zugang mit Kennwort: </b><br/>
+Für jeden Beschäftigten wird ein individuelles Kennwort erzeugt, das an die Beschäftigten verteilt
+werden muss. Nach Teilnahme an der Befragung verfällt das Kennwort.
+Um das Kennwort zu verteilen, wird Ihnen auf der Startseite eine Druckvorlage für einen
+Serienbrief zur Verfügung gestellt. Diese besteht aus einem anpassbaren Text, dem Link zur
+Befragung sowie dem individuellem Kennwort. Der Serienbrief muss ausgedruckt und an die
+Beschäftigten verteilt werden.
+Außerdem wird eine Excel Liste mit den Kennwörtern für alle Beschäftigten erzeugt. Diese kann
+für alternative Verteilungsformen, wie z.B. eine Serien E-Mail (Funktionalität wird nicht vom
+System zur Verfügung gestellt) genutzt werden.
+        <br/>
+        <b> Offener Zugang:</b><br/>
+Es wird ein Link zum Fragebogen ihres Unternehmens erzeugt. Um an der
+Befragung teilzunehmen wird lediglich der Link benötigt. Dieser kann bspw. in einer E-Mail
+gleichzeitig an alle Beschäftigten verschickt werden.
+        </p>
+
+        <p><h3>Paper2Disk</h3> </p>
+        <p> Der Fragebogen Ihres Unternehmens wird zusätzlich im PDF Format erzeugt. Sie können diesen
+        Ausdrucken und an Beschäftigte ohne Internetzugang verteilen. Die Eingabe erfolgt nach
+        Rückgabe der Fragebögen per Maus oder Tastatur auf der Startseite.
+        </p>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
