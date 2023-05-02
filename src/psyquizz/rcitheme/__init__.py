@@ -13,6 +13,8 @@ from nva.psyquizz.models.quizz.quizz5 import IQuizz5
 library = Library('psyquizz.rcitheme', 'static')
 rcicss = Resource(library, 'rci.css')
 
+condition_js = Resource(library, 'conditions.js')
+
 
 def get_template(name):
     return uvclight.get_template(name, __file__)

@@ -25,7 +25,12 @@
             Startseite</a>
           </li>
 	</ul>
-        <ul tal:condition="viewlet.isAuth()" class="nav navbar-nav navbar-right">
+        <ul tal:condition="viewlet.isAuthM()" class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" tal:attributes="href view.application_url() + '/statistik'"
+               ><span class="glyphicon glyphicon-scale" aria-hidden="true"></span>
+            &nbsp;Statistik</a>
+          </li>
           <li>
             <a href="#" tal:attributes="href view.application_url() + '/myprefs'"
                ><span class="glyphicon glyphicon-user" aria-hidden="true"></span>

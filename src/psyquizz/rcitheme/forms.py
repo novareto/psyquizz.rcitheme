@@ -8,8 +8,9 @@ from .interfaces import IRCITheme
 from zope import schema, interface
 from nva.psyquizz.models import IAccount
 from nva.psyquizz.browser.forms import CreateAccount, CreateCompany, CreateCourse, AddSession
-from nva.psyquizz.browser.forms import IVerifyPassword, ICaptched
+from nva.psyquizz.browser.forms import IVerifyPassword, ICaptched, IAcceptConditions
 from nva.psyquizz.models.interfaces import ICompany
+from . import condition_js
 
 
 DESC = u"""
@@ -61,7 +62,13 @@ class CreateAccount(CreateAccount):
     title = label = "Registrierung"
     description = u"Hier können Sie einen neun Benutzer registrieren."
 
-    fields = (uvclight.Fields(IAccount).select('name', 'email', 'password')) + uvclight.Fields(IVerifyPassword) + uvclight.Fields(IAckForm)
+    fields = (uvclight.Fields(IAccount).select('name', 'email', 'password', 'accept')) + uvclight.Fields(IVerifyPassword) + uvclight.Fields(IAcceptConditions) + uvclight.Fields(IAckForm)
+    fields['accept'].mode = "blockradio"
+    fields['accept'].title = u"Ist Ihr Unternehmen bei der BG RCI versichert?"
+
+    def update(self):
+        super(CreateAccount, self).update()
+        condition_js.need()
 
 
 CreateCompany.fields['mnr'].title = u"Mitgliedsnummer (z.B. 50.000.492.022)."

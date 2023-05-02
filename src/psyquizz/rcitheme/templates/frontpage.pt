@@ -49,6 +49,15 @@
             </p>
           </div>
           <hr>
+          <ul class="list-unstyled">
+           <!--
+            <li tal:condition="view.canCompare(company)">
+             <a href="" tal:attributes="href str(company.id) + '/++diff++'">
+               <span class="glyphicon glyphicon-random" aria-hidden="true"></span> Befragungen vergleichen
+             </a>
+            </li>
+            -->
+          </ul>
             <h3> Befragungen
               <small>
 		<a href="" data-toggle="tooltip" data-placement="left" tal:attributes="href view.url(context, str(company.id) + '/add.course')"> (Neue Befragung anlegen)  </a>
@@ -61,7 +70,15 @@
 				 str(company.id) + '/' +
 				  str(course.id) + '/delete')">
 			    <span class="glyphicon glyphicon-trash"> </span> </a>
+
 			    <hr />
+           <ul class="list-unstyled">
+            <li tal:condition="view.canDiff(course.sessions)">
+              <a href="" tal:attributes="href str(company.id) + '/' + str(course.id) + '/sessions.diff'" data-toggle="tooltip" data-placement="left" title="Graphische Darstellung der Entwicklung der Ergebnisse zwischen Erst- und Wiederholungsbefragungen">
+                <span class="glyphicon glyphicon-random" aria-hidden="true"></span> Entwicklung auswerten
+              </a>
+            </li>
+          </ul>
 			    <fieldset tal:repeat="session sorted(course.sessions, key=lambda x: x.id)">
 			      <dl class="dl-horizontal">
 				<dt>
